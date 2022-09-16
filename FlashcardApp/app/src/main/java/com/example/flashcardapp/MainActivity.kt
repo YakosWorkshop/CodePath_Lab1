@@ -12,19 +12,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val flashQuestion = findViewById<View>(R.id.flashcard_question)
-        val flashAnswer = findViewById<View>(R.id.flashcard_answer)
+        val flashAnswer1 = findViewById<View>(R.id.flashcard_answer1)
+        val flashAnswer2 = findViewById<View>(R.id.flashcard_answer2)
+        val flashAnswer3 = findViewById<View>(R.id.flashcard_answer3)
+        
 
-        findViewById<View>(R.id.flashcard_question). setOnClickListener {
-            flashQuestion.visibility = View.INVISIBLE
-            flashAnswer.visibility = View.VISIBLE
+        findViewById<View>(R.id.flashcard_answer1). setOnClickListener {
 
-            Toast.makeText(this, "Question button was clicked", Toast.LENGTH_SHORT).show()
+            flashAnswer1.setBackgroundColor(getResources().getColor(R.color.red, null))
+            flashAnswer3.setBackgroundColor(getResources().getColor(R.color.green, null))
 
-            Log.i("Jacob", "Question button was clicked")
         }
-        findViewById<View>(R.id.flashcard_answer). setOnClickListener {
-            flashAnswer.visibility = View.INVISIBLE
-            flashQuestion.visibility = View.VISIBLE
+        findViewById<View>(R.id.flashcard_answer2). setOnClickListener {
+
+            flashAnswer2.setBackgroundColor(getResources().getColor(R.color.red, null))
+            flashAnswer3.setBackgroundColor(getResources().getColor(R.color.green, null))
+        }
+        findViewById<View>(R.id.flashcard_answer3). setOnClickListener {
+
+            flashAnswer3.setBackgroundColor(getResources().getColor(R.color.green, null))
+
         }
     }
 }
