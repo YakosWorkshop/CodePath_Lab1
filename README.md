@@ -6,9 +6,9 @@
 In this lab I create a flashcard game. The app allows the user toggle the visiblity of the answers and when the user decides a choice it will reveal which one is correct.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="  ![Flashcard Demonstration ](https://user-images.githubusercontent.com/77998206/190834359-3a79053a-222d-4298-bc5d-e192461aa48b.gif) "width=200><br>
+
+<img src= ![Flashcard Demonstration ](https://user-images.githubusercontent.com/77998206/190834359-3a79053a-222d-4298-bc5d-e192461aa48b.gif) width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
