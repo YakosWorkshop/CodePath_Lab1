@@ -8,7 +8,7 @@ In this lab I create a flashcard game. The app allows the user toggle the visibl
 ### App Walk-though
 
 
-<img src= ![Flashcard Demonstration ](https://user-images.githubusercontent.com/77998206/190834359-3a79053a-222d-4298-bc5d-e192461aa48b.gif) width=200><br>
+![Flashcard Demonstration ](https://user-images.githubusercontent.com/77998206/190834359-3a79053a-222d-4298-bc5d-e192461aa48b.gif)
 
 ## Required
 - [x] Create New Project in Android Studio
