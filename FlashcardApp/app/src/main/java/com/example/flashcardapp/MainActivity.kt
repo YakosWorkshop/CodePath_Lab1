@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -56,6 +57,11 @@ class MainActivity : AppCompatActivity() {
 
             flashAnswer3.setBackgroundColor(getResources().getColor(R.color.green, null))
 
+        }
+        flashQuestion.setOnClickListener {
+            flashAnswer1.setBackgroundColor(getResources().getColor(R.color.light_orange))
+            flashAnswer2.setBackgroundColor(getResources().getColor(R.color.light_orange))
+            flashAnswer3.setBackgroundColor(getResources().getColor(R.color.light_orange))
         }
     }
 }
