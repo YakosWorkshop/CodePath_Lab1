@@ -15,12 +15,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val flashQuestion = findViewById<View>(R.id.flashcard_question)
+        val flashBack = findViewById<View>(R.id.flashcard_backside)
         val flashAnswer1 = findViewById<View>(R.id.flashcard_answer1)
         val flashAnswer2 = findViewById<View>(R.id.flashcard_answer2)
         val flashAnswer3 = findViewById<View>(R.id.flashcard_answer3)
         val visibleEye = findViewById<ImageView>(R.id.toggle_choices_visibility)
         val invisibleEye = findViewById<ImageView>(R.id.toggle_choices_invisibility)
+        val background = findViewById<RelativeLayout>(R.id.background)
 
+
+        flashQuestion.setOnClickListener {
+
+            flashBack.visibility = View.VISIBLE
+            flashQuestion.visibility = View.INVISIBLE
+        }
+        flashBack.setOnClickListener {
+
+            flashBack.visibility = View.INVISIBLE
+            flashQuestion.visibility = View.VISIBLE
+        }
         visibleEye.setOnClickListener {
 
             flashAnswer1.visibility = View.VISIBLE
@@ -58,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             flashAnswer3.setBackgroundColor(getResources().getColor(R.color.green, null))
 
         }
-        flashQuestion.setOnClickListener {
+        background.setOnClickListener {
             flashAnswer1.setBackgroundColor(getResources().getColor(R.color.light_orange))
             flashAnswer2.setBackgroundColor(getResources().getColor(R.color.light_orange))
             flashAnswer3.setBackgroundColor(getResources().getColor(R.color.light_orange))
