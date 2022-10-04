@@ -21,7 +21,8 @@
         android:elevation="5dp"
         android:gravity="center"
         android:text="Who is the 44th President of the United States? "
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        />
 
     <TextView
         android:id="@+id/flashcard_backside"
@@ -101,6 +102,15 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"
         android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:id="@+id/add_icon"
+        android:src="@drawable/ic_baseline_add_circle_outline_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         />
 
 </RelativeLayout>
