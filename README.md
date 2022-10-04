@@ -7,7 +7,7 @@ In this lab, I created a 2 activity which can recieve a input. The data is then 
 
 ### App Walk-though
 
-<img src="(https://github.com/YakosWorkshop/CodePath_Lab1/raw/main/Flashcard%20Lab%204%20Demonstration%20.gif)" width=200><br>
+<img src="https://github.com/YakosWorkshop/CodePath_Lab1/raw/main/Flashcard%20Lab%204%20Demonstration%20.gif" width=200><br>
 
 
 ## Required
